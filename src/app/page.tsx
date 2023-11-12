@@ -47,10 +47,10 @@ export default async function Home() {
       </section>
       <section className="mt-8 max-w-[1200px] mx-auto">
         <h1 className="text-2xl text-center font-semibold">Meet our team</h1>
-        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           <Link
             href="https://youtube.com/@ToastedDev"
-            className="flex flex-col items-center space-y-2"
+            className="flex flex-col items-center p-2 hover:bg-primary/5 transition-all rounded-lg"
           >
             <Avatar>
               <AvatarImage alt="ToastedToast" src="/team/toastedtoast.jpg" />
@@ -61,7 +61,7 @@ export default async function Home() {
           </Link>
           <Link
             href="https://youtube.com/@RedFireNiceBoi"
-            className="flex flex-col items-center space-y-2"
+            className="flex flex-col items-center p-2 hover:bg-primary/5 transition-all rounded-lg"
           >
             <Avatar>
               <AvatarImage
@@ -75,7 +75,7 @@ export default async function Home() {
           </Link>
           <Link
             href="https://youtube.com/@JipStats"
-            className="flex flex-col items-center space-y-2"
+            className="flex flex-col items-center p-2 hover:bg-primary/5 transition-all rounded-lg"
           >
             <Avatar>
               <AvatarImage alt="JipStats" src="/team/jipstats.jpg" />
@@ -86,7 +86,7 @@ export default async function Home() {
           </Link>
           <Link
             href="https://youtube.com/@GNZGUY"
-            className="flex flex-col items-center space-y-2"
+            className="flex flex-col items-center p-2 hover:bg-primary/5 transition-all rounded-lg"
           >
             <Avatar>
               <AvatarImage alt="GNZGUY" src="/team/gnzguy.jpg" />

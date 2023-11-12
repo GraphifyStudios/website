@@ -52,10 +52,10 @@ export default function Rules() {
       </section>
       <section className="mt-3 max-w-[1200px] mx-auto">
         <p className="text-center">Created by</p>
-        <div className="mt-3 flex flex-wrap items-center justify-center gap-8">
+        <div className="mt-3 flex flex-wrap items-center justify-center gap-3">
           <Link
             href="https://youtube.com/@ToastedDev"
-            className="flex flex-col items-center space-y-2"
+            className="flex flex-col items-center p-4 hover:bg-primary/5 transition-all rounded-lg"
           >
             <Avatar>
               <AvatarImage alt="ToastedToast" src="/team/toastedtoast.jpg" />
@@ -65,11 +65,11 @@ export default function Rules() {
           </Link>
           <Link
             href="https://youtube.com/@Matheusify"
-            className="flex flex-col items-center space-y-2"
+            className="flex flex-col items-center p-4 hover:bg-primary/5 transition-all rounded-lg"
           >
             <Avatar>
               <AvatarImage alt="Matheusify" src="/matheusify.jpg" />
-              <AvatarFallback>M</AvatarFallback>
+              <AvatarFallback>Matheusify</AvatarFallback>
             </Avatar>
             <h3 className="text-xl font-bold">Matheusify</h3>
           </Link>
