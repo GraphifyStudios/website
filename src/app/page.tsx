@@ -13,7 +13,7 @@ export default async function Home() {
     <>
       <section className="flex flex-col items-center justify-center">
         <div className="text-center flex flex-col items-center justify-center gap-1">
-          <h1 className="text-5xl font-bold [text-wrap:balance]">
+          <h1 className="text-4xl md:text-5xl font-bold [text-wrap:balance]">
             Revolutionizing the future of{" "}
             <span className="text-primary underline italic">statistics</span>.
           </h1>
