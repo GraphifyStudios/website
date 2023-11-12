@@ -13,11 +13,17 @@ export const rules: Rule[] = [
     description: (
       <>
         We follow the{" "}
-        <Link href="https://www.youtube.com/static?template=terms">
+        <Link
+          href="https://www.youtube.com/static?template=terms"
+          target="_blank"
+        >
           YouTube TOS
         </Link>{" "}
         and{" "}
-        <Link href="https://www.youtube.com/howyoutubeworks/policies/community-guidelines/">
+        <Link
+          href="https://www.youtube.com/howyoutubeworks/policies/community-guidelines/"
+          target="_blank"
+        >
           Community Guidelines
         </Link>
         , so it just makes sense for you to follow them too.
@@ -50,8 +56,10 @@ export const rules: Rule[] = [
       <>
         This includes sending links to other websites (like Discord, Twitter/X,
         Instagram, other live statistics websites such as{" "}
-        <Link href="https://livecounts.io">livecounts.io</Link>, etc.) and
-        advertising other platforms.
+        <Link href="https://livecounts.io" target="_blank">
+          livecounts.io
+        </Link>
+        , etc.) and advertising other platforms.
       </>
     ),
   },

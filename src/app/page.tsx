@@ -24,6 +24,7 @@ export default async function Home() {
         </div>
         <Link
           href="https://youtube.com/@graphifystatistics/live"
+          target="_blank"
           title="Check out this stream!"
           className="pt-3 relative"
         >
@@ -37,7 +38,7 @@ export default async function Home() {
             className="rounded-lg shadow-[0_25px_100px_-12px_rgb(0_0_0_/_0.25)]"
           />
           <span className="absolute top-0 bottom-1/2 w-[95%] h-40 bg-primary/80 rounded-lg blur-[120px] -z-10" />
-          <div className="bottom-0 top-1/2 bg-gradient-to-t from-background left-0 right-0 absolute z-10" />
+          <div className="hidden md:block bottom-0 top-1/2 bg-gradient-to-t from-background left-0 right-0 absolute z-10" />
         </Link>
       </section>
       <section className="max-w-[1200px] mx-auto">
@@ -50,6 +51,7 @@ export default async function Home() {
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           <Link
             href="https://youtube.com/@ToastedDev"
+            target="_blank"
             className="flex flex-col items-center p-2 hover:bg-primary/5 transition-all rounded-lg"
           >
             <Avatar>
@@ -61,6 +63,7 @@ export default async function Home() {
           </Link>
           <Link
             href="https://youtube.com/@RedFireNiceBoi"
+            target="_blank"
             className="flex flex-col items-center p-2 hover:bg-primary/5 transition-all rounded-lg"
           >
             <Avatar>
@@ -75,6 +78,7 @@ export default async function Home() {
           </Link>
           <Link
             href="https://youtube.com/@JipStats"
+            target="_blank"
             className="flex flex-col items-center p-2 hover:bg-primary/5 transition-all rounded-lg"
           >
             <Avatar>
@@ -86,6 +90,7 @@ export default async function Home() {
           </Link>
           <Link
             href="https://youtube.com/@GNZGUY"
+            target="_blank"
             className="flex flex-col items-center p-2 hover:bg-primary/5 transition-all rounded-lg"
           >
             <Avatar>
