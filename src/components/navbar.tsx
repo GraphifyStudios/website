@@ -15,7 +15,7 @@ export default function Navbar() {
           href="/rules"
           className="opacity-50 hover:opacity-100 hover:underline transition-all text-lg"
         >
-          Chat Rules
+          Stream Rules
         </Link>
       </div>
     </nav>

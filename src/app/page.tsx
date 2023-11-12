@@ -48,15 +48,21 @@ export default async function Home() {
       <section className="mt-8 max-w-[1200px] mx-auto">
         <h1 className="text-2xl text-center font-semibold">Meet our team</h1>
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          <div className="flex flex-col items-center space-y-2">
+          <Link
+            href="https://youtube.com/@ToastedDev"
+            className="flex flex-col items-center space-y-2"
+          >
             <Avatar>
               <AvatarImage alt="ToastedToast" src="/team/toastedtoast.jpg" />
               <AvatarFallback>TT</AvatarFallback>
             </Avatar>
             <h3 className="text-xl font-bold">ToastedToast</h3>
             <p className="text-base text-gray-400">Founder & CEO</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
+          </Link>
+          <Link
+            href="https://youtube.com/@RedFireNiceBoi"
+            className="flex flex-col items-center space-y-2"
+          >
             <Avatar>
               <AvatarImage
                 alt="RedFireNiceBoi"
@@ -66,23 +72,29 @@ export default async function Home() {
             </Avatar>
             <h3 className="text-xl font-bold">RedFireNiceBoi</h3>
             <p className="text-base text-gray-400">Stream Host</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
+          </Link>
+          <Link
+            href="https://youtube.com/@JipStats"
+            className="flex flex-col items-center space-y-2"
+          >
             <Avatar>
               <AvatarImage alt="JipStats" src="/team/jipstats.jpg" />
               <AvatarFallback>JS</AvatarFallback>
             </Avatar>
             <h3 className="text-xl font-bold">JipStats</h3>
             <p className="text-base text-gray-400">Stream Host & Partner</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
+          </Link>
+          <Link
+            href="https://youtube.com/@GNZGUY"
+            className="flex flex-col items-center space-y-2"
+          >
             <Avatar>
               <AvatarImage alt="GNZGUY" src="/team/gnzguy.jpg" />
               <AvatarFallback>GNZ</AvatarFallback>
             </Avatar>
             <h3 className="text-xl font-bold">GNZGUY</h3>
             <p className="text-base text-gray-400">Thumbnail Artist</p>
-          </div>
+          </Link>
         </div>
       </section>
     </>
