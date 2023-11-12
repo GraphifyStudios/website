@@ -18,7 +18,6 @@ export const metadata: Metadata = {
     template: "%s — Graphify",
   },
   description: "A team dedicated to tracking and visualizing statistics.",
-  themeColor: "#0094fe",
   twitter: {
     card: "summary",
     creator: "@ToastedDev",
@@ -35,6 +34,10 @@ export const metadata: Metadata = {
       },
     ],
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0094fe",
 };
 
 export default function RootLayout({

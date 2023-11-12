@@ -3,9 +3,14 @@
  * Everything in this file is generated automatically. If you want to update the contents of this page, update it in content/rules.tsx.
  */
 
+import { Metadata } from "next";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "~/components/ui/avatar";
 import { rules } from "../../../content/rules";
+
+export const metadata: Metadata = {
+  title: "Stream Rules",
+};
 
 export default function Rules() {
   return (
