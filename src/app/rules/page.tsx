@@ -46,7 +46,7 @@ export default function Rules() {
         <ol className="list-none flex flex-col gap-3">
           {rules.map((rule, index) => (
             <li key={rule.title}>
-              <div className="text-2xl flex items-center gap-1 [text-wrap:balance]">
+              <div className="text-2xl flex items-start gap-1 [text-wrap:balance]">
                 <p>{index + 1}.</p>
                 <b>{rule.title}</b>
               </div>
