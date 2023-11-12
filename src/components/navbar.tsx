@@ -13,7 +13,7 @@ export default function Navbar() {
       <div>
         <Link
           href="/rules"
-          className="opacity-50 hover:opacity-100 hover:underline transition-all"
+          className="opacity-50 hover:opacity-100 hover:underline transition-all text-lg"
         >
           Chat Rules
         </Link>
