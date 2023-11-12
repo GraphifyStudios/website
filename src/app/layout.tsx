@@ -26,7 +26,6 @@ export const metadata: Metadata = {
     siteId: "1457885285241421824",
   },
   openGraph: {
-    title: "Graphify",
     type: "website",
     images: [
       {
